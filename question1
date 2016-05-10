@@ -4,7 +4,45 @@ Here we need to include stringify_path in the routes.rb to put the application p
 then needed to create the view called stringify.html.erb and add the code shown below to stringify.html.erb so that we can get the result
 <p>My Stringify output</p> <%= @text %>
 
-the image is attached in the file.
+def stringify
+name_entered = params[:names]
+adj_entered = params[:adjective]
+@text = [your name #{name_entered} is so #{adj_entered}}
+
+----------------------------------------------------------------
+2.class Foodbar
+
+@in_var
+
+def initialize()
+@ins_var = n
+
+def bar(v1,v2)
+puts {v1} # {ins}#{v2}}
+
+end
+----------------------------------------------------
+3.class person
+
+att_accessor:nickname, :name,:age
+
+def initialize(name,age)
+@name =name
+@age =age
+end
+
+def introcude()
+(person name is #(@name) and age is #(@age))
+end
+def nick_name
+@name[0,4]
+end
+def screen_output()
+introduction = introduce()
+birth_year = birth_year()
+end
+end
+
 
 
 
